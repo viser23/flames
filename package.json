@@ -1,0 +1,35 @@
+{
+  "name": "shader-fire",
+  "version": "1.0.0",
+  "description": "A volumetric fire effect.",
+  "keywords": [
+    "fire",
+    "volumetric",
+    "shader"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/core": "7.14.2",
+    "@react-three/drei": "4.3.3",
+    "@react-three/fiber": "6.1.2",
+    "babel-plugin-glsl": "1.0.0",
+    "glsl-noise": "0.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.128.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
